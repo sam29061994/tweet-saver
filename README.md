@@ -2,6 +2,11 @@
 
 This App is written using React.js and Node.js
 
+## URL
+
+https://sam-tweet-saver.herokuapp.com
+
+
 ## Teachnologies used in this React APP
 
 ## React Api
@@ -29,9 +34,6 @@ Axios
 ## Backend
 
 Express, dotenv, cors, body parser
-
-## URL
-
 
 
 ## Available Scripts
