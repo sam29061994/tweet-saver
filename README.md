@@ -1,4 +1,41 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tweet Saver Assignment
+
+This App is written using React.js and Node.js
+
+## Teachnologies used in this React APP
+
+## React Api
+
+React Hooks, Effects
+
+## Routing
+
+React Router
+
+
+## Styling
+
+React Material UI
+
+## Authentication/ Database
+
+TWIT for Twitter Authentication
+
+## Async Requests
+
+Axios
+
+## Testing
+
+Jest, Enzyme and Snapshot testing
+
+## Backend
+
+Express, dotenv, cors, body parser
+
+## URL
+
+https://crwn-sam-clothing.herokuapp.com/
 
 ## Available Scripts
 
