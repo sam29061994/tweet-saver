@@ -5,20 +5,19 @@ const path = require('path');
 const Twit = require('twit');
 if (process.env.NODE_ENV !== 'production') require('dotenv').config();
 
+const app = express();
+const port = process.env.PORT || 5000;
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(cors());
+
 const T = new Twit({
   consumer_key: process.env.TWITTER_API_KEY,
   consumer_secret: process.env.TWITTER_API_SECRET,
   access_token: process.env.TWITTER_ACCESS_TOKEN,
   access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
 });
-
-const app = express();
-const port = process.env.PORT || 5000;
-app.use(cors());
-
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(cors());
 
 if (process.env.NODE_ENV === 'production') {
   app.use(enforce.HTTPS({ trustProtoHeader: true }));

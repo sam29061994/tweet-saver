@@ -10,7 +10,6 @@ import Avatar from '@material-ui/core/Avatar';
 import Typography from '@material-ui/core/Typography';
 
 export default ({ tweet }) => {
-  console.log(tweet);
     const { screen_name, profile_image_url_https, text, created_at } = tweet;
     const [{ isDragging }, drag] = useDrag({
         item: {
