@@ -2,15 +2,15 @@
 
 This App is written using React.js and Node.js
 
-## Insruction on Running the APP Locally
+## npm install
 
-### `npm install`
+Install dependency by running npm install in the server and client directory. There are two package.json files present one for server side and the second in the client directory.
 
-Install dependency by running npm install in the server and client directory. There are two package.json file present one for server side and the second in the client directory.
+## Instructiosn on Running the App Locally
 
-### `npm run dev`
+### npm run dev
 
-Runs the app and server in the development mode concurrently from the server directory.<br />
+Runs the React app and server in the development mode concurrently from the server directory. <br />
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
@@ -46,7 +46,7 @@ Express, dotenv, cors, body parser
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the client directory, you can run:
 
 ### `npm start`
 
@@ -81,32 +81,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
