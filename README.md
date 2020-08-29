@@ -2,10 +2,16 @@
 
 This App is written using React.js and Node.js
 
-## URL
+## Insruction on Running the APP Locally
 
-https://sam-tweet-saver.herokuapp.com
+### `npm run dev`
 
+Runs the app and server in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The Server will be listening on [http://localhost:5000]
+
+The page will reload if you make edits.<br />
 
 ## Teachnologies used in this React APP
 
@@ -16,7 +22,6 @@ React Hooks, Effects
 ## Routing
 
 React Router
-
 
 ## Styling
 
@@ -30,11 +35,9 @@ TWIT for Twitter Authentication
 
 Axios
 
-
 ## Backend
 
 Express, dotenv, cors, body parser
-
 
 ## Available Scripts
 
