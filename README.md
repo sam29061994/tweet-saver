@@ -25,9 +25,6 @@ TWIT for Twitter Authentication
 
 Axios
 
-## Testing
-
-Jest, Enzyme and Snapshot testing
 
 ## Backend
 
@@ -35,7 +32,7 @@ Express, dotenv, cors, body parser
 
 ## URL
 
-https://crwn-sam-clothing.herokuapp.com/
+
 
 ## Available Scripts
 
