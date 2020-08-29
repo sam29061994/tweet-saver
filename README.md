@@ -46,7 +46,7 @@ Express, dotenv, cors, body parser
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the client directory, you can run:
 
 ### `npm start`
 
