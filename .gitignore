@@ -20,7 +20,7 @@
 /client/.env.production.local
 
 
-.env
+
 
 /client/npm-debug.log*
 /client/yarn-debug.log*
