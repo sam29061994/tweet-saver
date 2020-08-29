@@ -40,7 +40,7 @@ export default () => {
           Clear{' '}
         </Button>
       </Grid>
-      <Grid item ref={drop}>
+      <Grid item ref={drop} >
         {tweets.length ? (
           <TweetList tweets={tweets}></TweetList>
         ) : (
