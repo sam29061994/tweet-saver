@@ -2,13 +2,13 @@
 
 This App is written using React.js and Node.js
 
-## `npm install`
+## npm install
 
-Install dependency by running npm install in the server and client directory. There are two package.json file present one for server side and the second in the client directory.
+Install dependency by running npm install in the server and client directory. There are two package.json files present one for server side and the second in the client directory.
 
 ## Instructiosn on Running the App Locally
 
-### `npm run dev`
+### npm run dev
 
 Runs the React app and server in the development mode concurrently from the server directory. <br />
 
