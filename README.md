@@ -2,6 +2,9 @@
 
 This App is written using React.js and Node.js
 
+## App URL
+https://sam-tweet-saver.herokuapp.com/
+
 ## npm install
 
 Install dependency by running npm install in the server and client directory. There are two package.json files present one for server side and the second in the client directory.
